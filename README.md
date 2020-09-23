@@ -19,7 +19,7 @@ For most of the deep-learning experiments I've done, I've almost always used [AR
 
 
 # examples
-example, BigGAN 2048x2048 trained on a single kanye track, it merely sounds like the track itself played through some-sort-of-terrible reverb:
+example, BigGAN 2048x2048 trained on a single kanye track, this is 34 Epochs into training with a dataset of 8,000+ 20.48s. clips, it merely sounds like the track itself played through some-sort-of-terrible reverb:
 [wav file link](http://bit.ly/3023wQl). and the actual generated image before conversion:
 <p align="center">
 <img src="BigGAN_train_34_07616.png" width="500" height="500">
