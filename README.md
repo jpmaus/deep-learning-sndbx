@@ -19,8 +19,19 @@ For most of the deep-learning experiments I've done, I've almost always used [AR
 
 
 # examples
-example, BigGAN 2048x2048 trained on a single kanye track, this is 34 Epochs into training with a dataset of 8,000+ 20.48s. clips, it merely sounds like the track itself played through some-sort-of-terrible reverb:
-[wav file link](http://bit.ly/3023wQl). and the actual generated image before conversion:
-<p align="center">
-<img src="BigGAN_train_34_07616.png" width="500" height="500">
-</p>
+examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of images)
+* Trained on a single Kanye track, segmented into 4,096x2 images (an offset ~0.01):
+   * [wav sample, generated @ epoch 34 & iter.7616](/results/KNYE_BigGAN_34_07616.wav)
+
+* Trained on a Josquin Mass (Missa La So Fa Re Mi), segmented into 32,566x2 images (an offset ~0.01):
+   * [wav sample, generated @ epoch 15 & iter.11000](/results/JSQN_BigGAN_15_11000.wav)
+   * [wav sample, generated @ epoch 15 & iter.65000](/results/JSQN_BigGAN_15_65000.wav)
+   * [wav sample, generated @ epoch 16 & iter.02000](/results/JSQN_BigGAN_16_02000.wav)
+
+* Trained on some Gabrieli Canzoni, segemented into 12,015x2 images (an offset of ~0.5):
+   * [wav sample, generated @ epoch 40 & iter.24000](/results/GBRLI_BigGAN_40_24000.wav)
+   * [wav sample, generated @ epoch 43 & iter.16000](/results/GBRLI_BigGAN_43_16000.wav)
+   * [wav sample, generated @ epoch 45 & iter.02000](/results/GBRLI_BigGAN_45_02000.wav)
+
+# future
+next up for the GPUs, APHG's the Doldrums.
