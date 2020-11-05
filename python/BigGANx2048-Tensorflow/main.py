@@ -3,6 +3,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="1"
 from BigGAN_256 import BigGAN_256
 from BigGAN_128 import BigGAN_128
 from BigGAN_512 import BigGAN_512
+from BigGAN_1024 import BigGAN_1024
 from BigGAN_2048 import BigGAN_2048
 from keras.utils.vis_utils import plot_model
 from keras.callbacks import TensorBoard
@@ -109,6 +110,8 @@ def main():
 
         if args.img_size == 2048 :
             gan = BigGAN_2048(sess, args)
+        elif args.img_size == 1024 :
+            gan = BigGAN_1024(sess, args)
         elif args.img_size == 512 :
             gan = BigGAN_512(sess, args)
         elif args.img_size == 256 :
