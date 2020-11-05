@@ -27,11 +27,22 @@ examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of
    * [wav sample, generated @ epoch 15 & iter.11000](/results/JSQN_BigGAN_15_11000.wav)
    * [wav sample, generated @ epoch 15 & iter.65000](/results/JSQN_BigGAN_15_65000.wav)
    * [wav sample, generated @ epoch 16 & iter.02000](/results/JSQN_BigGAN_16_02000.wav)
-
+   * [wav sample, generated @ epoch 32 & iter.19000](/results/JSQN_BigGAN_32_19000.bmp.wav)   
+   * [wav sample, generated @ epoch 32 & iter.24000](/results/JSQN_BigGAN_32_24000.bmp.wav)  
+   * [wav sample, generated @ epoch 36 & iter.49000](/results/JSQN_BigGAN_36_49000.bmp.wav)
+   * (more soon, still training!)
+   
 * Trained on some Gabrieli Canzoni, segemented into 12,015x2 images (an offset of ~0.5):
    * [wav sample, generated @ epoch 40 & iter.24000](/results/GBRLI_BigGAN_40_24000.wav)
    * [wav sample, generated @ epoch 43 & iter.16000](/results/GBRLI_BigGAN_43_16000.wav)
    * [wav sample, generated @ epoch 45 & iter.02000](/results/GBRLI_BigGAN_45_02000.wav)
+   
+* Trained on Ariel Pink's album The Doldrums, segemented into 12,015x2 images (an offset of ~0.5):
+   * [wav sample, generated @ epoch 18 & iter.08000](/results/DLDRM_BigGAN_18_08000.wav)
+   * [wav sample, generated @ epoch 18 & iter.18000](/results/DLDRM_BigGAN_18_18000.wav)
+   * [wav sample, generated @ epoch 18 & iter.19000](/results/DLDRM_BigGAN_18_19000.wav)
+   * [wav sample, generated @ epoch 18 & iter.20000](/results/DLDRM_BigGAN_18_20000.wav)
+   * (more soon, still training!)
 
 # future
-next up for the GPUs, APHG's the Doldrums.
+stop calling it "ai", intellect is intrinsically and subjectively independent of matter, the artificial can't be intelligent.  (see Grenier, Thomistic Philosophy, Book IV, Chapter 1)
