@@ -37,7 +37,7 @@ examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of
    * [wav sample, generated @ epoch 43 & iter.16000](/results/GBRLI_BigGAN_43_16000.wav)
    * [wav sample, generated @ epoch 45 & iter.02000](/results/GBRLI_BigGAN_45_02000.wav)
    
-* Trained on Ariel Pink's album The Doldrums, segemented into 12,015x2 images (an offset of ~0.5):
+* Trained on Ariel Pink's album The Doldrums, segemented into 27,496x2 images (an offset of ~0.1):
    * [wav sample, generated @ epoch 18 & iter.08000](/results/DLDRM_BigGAN_18_08000.wav)
    * [wav sample, generated @ epoch 18 & iter.18000](/results/DLDRM_BigGAN_18_18000.wav)
    * [wav sample, generated @ epoch 18 & iter.19000](/results/DLDRM_BigGAN_18_19000.wav)
