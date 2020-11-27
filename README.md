@@ -19,7 +19,7 @@ For most of the deep-learning experiments I've done, I've almost always used [AR
 
 
 # examples
-examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of images)
+examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of images).  It seems like 30 epochs is more than enough training.  After 30 the training starts "feeding back" (or something) on useless features that have nothing to do with the spectral images.
 * Trained on a single Kanye track, segmented into 4,096x2 images (an offset ~0.01):
    * [wav sample, generated @ epoch 34 & iter.7616](/results/KNYE_BigGAN_34_07616.wav)
 
@@ -42,7 +42,14 @@ examples of BigGAN 2048x2048, (the "x2" implies each epoch iterated x2 number of
    * [wav sample, generated @ epoch 18 & iter.18000](/results/DLDRM_BigGAN_18_18000.wav)
    * [wav sample, generated @ epoch 18 & iter.19000](/results/DLDRM_BigGAN_18_19000.wav)
    * [wav sample, generated @ epoch 18 & iter.20000](/results/DLDRM_BigGAN_18_20000.wav)
-   * (more soon, still training!)
+   * [wav sample, generated @ epoch 25 & iter.25000](/results/DLDRM_BigGAN_25_25000.wav)
+   * [wav sample, generated @ epoch 26 & iter.14000](/results/DLDRM_BigGAN_26_14000.wav)
+   * [wav sample, generated @ epoch 26 & iter.16000](/results/DLDRM_BigGAN_26_16000.wav)
+   * [wav sample, generated @ epoch 26 & iter.17000](/results/DLDRM_BigGAN_26_17000.wav)
+   * [wav sample, generated @ epoch 26 & iter.43000](/results/DLDRM_BigGAN_26_43000.wav)
+   * [wav sample, generated @ epoch 27 & iter.19000](/results/DLDRM_BigGAN_27_19000.wav)
+   * [wav sample, generated @ epoch 28 & iter.27000](/results/DLDRM_BigGAN_28_27000.wav)
+
 
 # future
 stop calling it "ai", intellect is intrinsically and subjectively independent of matter, the artificial can't be intelligent.  (see Grenier, Thomistic Philosophy, Book IV, Chapter 1)
